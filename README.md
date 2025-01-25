@@ -21,10 +21,22 @@ $ cat file.cbor | cbd
 {"key": "value"}
 ```
 
+**Decode base64 encoded CBOR from stdin and output JSON:**
+```shell
+$ echo 'oWNrZXlldmFsdWU' | cbd
+{"key": "value"}
+```
+
 **Encode JSON from stdin and output CBOR:**
 ```shell
 $ cat file.json | cbd -e
-?ckeyevalue%
+?ckeyevalue
+```
+
+**Encode JSON from stdin and output base64 encoded CBOR:**
+```shell
+$ cat file.json | cbd -e --base64
+oWNrZXlldmFsdWU
 ```
 
 ## Installation ##
