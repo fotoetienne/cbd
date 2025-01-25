@@ -1,0 +1,17 @@
+[package]
+name = "cbd"
+description = "Command-line CBOR decoder and encoder"
+keywords = ["cbor", "decoder", "encoder", "command-line", "cli"]
+categories = ["command-line-utilities", "encoding"]
+homepage = "https://github.com/fotoetienne/cbd"
+repository = "https://github.com/fotoetienne/cbd"
+license = "Apache-2.0"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ciborium = "0.2.2"
+clap = { version = "4.5.27", features = ["derive"] }
+serde = "1.0.217"
+serde_json = "1.0.137"
+base64 = "0.22.1"
