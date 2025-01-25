@@ -6,7 +6,7 @@ categories = ["command-line-utilities", "encoding"]
 homepage = "https://github.com/fotoetienne/cbd"
 repository = "https://github.com/fotoetienne/cbd"
 license = "Apache-2.0"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 
 [dependencies]
