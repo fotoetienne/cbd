@@ -27,7 +27,7 @@ use base64::Engine;
  *
  * ## Installation ##
  * ```shell
- * cargo install cbd
+ * $cargo install cbd
  * ```
  */
 
