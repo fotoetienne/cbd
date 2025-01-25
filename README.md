@@ -15,25 +15,25 @@ Options:
   -h, --help    Print help
 ```
 
-**Decode CBOR from stdin and output JSON:**
+**Decode CBOR into JSON:**
 ```shell
 $ cat file.cbor | cbd
 {"key": "value"}
 ```
 
-**Decode base64 encoded CBOR from stdin and output JSON:**
+**Decode base64 encoded CBOR into JSON:**
 ```shell
 $ echo 'oWNrZXlldmFsdWU' | cbd
 {"key": "value"}
 ```
 
-**Encode JSON from stdin and output CBOR:**
+**Encode JSON into CBOR:**
 ```shell
 $ cat file.json | cbd -e
 ?ckeyevalue
 ```
 
-**Encode JSON from stdin and output base64 encoded CBOR:**
+**Encode JSON into base64 encoded CBOR:**
 ```shell
 $ cat file.json | cbd -e --base64
 oWNrZXlldmFsdWU
