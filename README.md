@@ -2,6 +2,11 @@
 
 Library for decoding and encoding Concise Binary ([cbor](https://cbor.io)) Data
 
+## Installation ##
+```shell
+$ cargo install cbd
+```
+
 ## Usage ##
 
 **Help:**
@@ -37,9 +42,4 @@ $ cat file.json | cbd -e
 ```shell
 $ cat file.json | cbd -e --base64
 oWNrZXlldmFsdWU
-```
-
-## Installation ##
-```shell
-$ cargo install cbd
 ```
